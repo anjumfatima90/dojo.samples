@@ -1,7 +1,7 @@
 # dojo.samples
 
 1. Clone the repository using `git@github.com:anjumfatima90/dojo.samples.git`
-2. Run `mvn clean install` to create the war in the target `dojoWARExample/target` folder.
+2. Run `mvn clean install` from the `dojoWARExample` folder to create the war in the target `dojoWARExample/target` folder.
 3. To run locally in wlp folder, create a server using `bin/server create` command.
 4. Then place the war in `wlp/usr/servers/defaultServer/dropins/spring` folder.
 5. Update the `wlp/usr/servers/defaultServer/server.xml` file by adding `jsp.2-3` and `springBoot-2.0` features.
